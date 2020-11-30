@@ -1,0 +1,22 @@
+{
+  "name": "utterance",
+  "version": "0.0.1",
+  "description": "github utterance example",
+  "main": "index.js",
+  "authors": {
+    "name": "Divine Hycenth",
+    "email": "divinehycenth@outlook.com"
+  },
+  "repository": "/utterance",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "@saintic/vuepress-plugin-utterances": "^0.2.0"
+  }
+}
