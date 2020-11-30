@@ -9,6 +9,8 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
   description: description,
+  dest: "build",
+  base: "/",
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -32,6 +34,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    docsRepo: "https://github.com/DNature/utterance",
     nav: [
       {
         text: 'Guide',
