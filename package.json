@@ -1,22 +1,26 @@
 {
-  "name": "utterance",
-  "version": "0.0.1",
-  "description": "github utterance example",
-  "main": "index.js",
-  "authors": {
-    "name": "Divine Hycenth",
-    "email": "divinehycenth@outlook.com"
-  },
-  "repository": "/utterance",
-  "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^1.5.3"
-  },
-  "dependencies": {
-    "@saintic/vuepress-plugin-utterances": "^0.2.0"
-  }
+	"name": "utterance",
+	"version": "0.0.1",
+	"description": "github utterance example",
+	"main": "index.js",
+	"authors": {
+		"name": "Divine Hycenth",
+		"email": "divinehycenth@outlook.com"
+	},
+	"repository": "https://github.com/DNature/utterance",
+	"homepage": "https://dnature.github.io/utterance",
+	"scripts": {
+		"dev": "vuepress dev src",
+		"build": "vuepress build src",
+		"predeploy": "yarn build",
+		"deploy": "gh-pages -d build"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"gh-pages": "^3.1.0",
+		"vuepress": "^1.5.3"
+	},
+	"dependencies": {
+		"@saintic/vuepress-plugin-utterances": "^0.2.0"
+	}
 }
