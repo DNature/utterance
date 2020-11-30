@@ -12,8 +12,7 @@
 	"scripts": {
 		"dev": "vuepress dev src",
 		"build": "vuepress build src",
-		"predeploy": "yarn build",
-		"deploy": "gh-pages -d build"
+		"deploy": "gh-pages -d dist"
 	},
 	"license": "MIT",
 	"devDependencies": {
