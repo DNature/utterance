@@ -8,10 +8,10 @@ jobs:
         uses: actions/checkout@master
 
       - name: utterance-deploy
-        uses: jenkey2011/vuepress-deploy@master
+        uses: testthedocs/github-pages-deploy-action@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: DNature/utterance
-          TARGET_BRANCH: gh-pages
+          TARGET_BRANCH: master
           BUILD_SCRIPT: yarn && yarn build
           BUILD_DIR: build/
