@@ -71,7 +71,7 @@ module.exports = {
     '@vuepress/plugin-medium-zoom',
     ['@saintic/utterances',
         {
-          repo: 'Hardocs/hardocs.github.io',
+          repo: 'DNature/utterance',
           theme: 'github-light',
           issueTerm: 'pathname'
         }]
